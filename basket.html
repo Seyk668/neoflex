@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/basket.css">
+    <title>Корзина</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">qpick</div>
+
+                <div class="nav">
+                    <a class="nav__link" href="#">
+                        <img src="assets/image/favorites.svg" alt="favorites">
+                    </a>
+                    <a class="nav__link" href="#">
+                        <img src="assets/image/basket.svg" alt="basket">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="section">
+        <div class="container">
+            <h2 class="section__title">Корзина</h2>
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__itemImg">
+                    <img class="card__img" src="assets/image/BYZ S852I.png" alt="">
+                    </div>
+                    <div class="card__GlText">
+
+                        <div class="card__text">
+                            <div class="card__name">Apple BYZ S852I</div>
+                            <div class="card__price">2927 Р</div>
+                        </div>
+                    </div>
+                    <div class="card__formDelete" action="">
+                        <button class="card__btnDelete">
+                            <img src="assets/image/delete.png" alt="">
+                        </button>
+                    </div>
+
+                        <div class="bottom__amount">
+
+                            <div class="card__btnMinus">
+                                <img src="assets/image/minus.png" alt="-" data-action="minus">
+                            </div>
+
+                            <div class="card__amount" data-counter>1</div>
+
+                            <div class="card__btnPlus">
+                                <img src="assets/image/plus.png" alt="+" data-action="plus">
+                            </div>
+
+                        </div>
+                        <div class="card__total">2 927</div>
+
+                </div>
+            </div>
+            <div class="card__registration">
+                <div class="top__registration">
+                    <div class="registration__total">Итого</div>
+                    <div class="registration__total">2 927</div>
+                </div>
+                <form class="form__buy" action="">
+                    <button class="btn__buy">Перейти к оформлению</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__card">
+                <div class="footer__logo">qpick</div>
+                <div class="footer__center">
+                    <a class="footer__btn" href="#">Избранное</a>
+                    <a class="footer__btn" href="#">Корзина</a>
+                    <a class="footer__btn" href="#">Контакты</a>
+                </div>
+                <div class="footer__right">
+                    <a class="footer__condition" href="#">Условия сервиса</a>
+                    <div class="footer__language">
+                        <img src="assets/image/language.png" alt="">
+                        <form action="">
+                        <button class="footer__languageBtn">Рус</button>
+                        <button class="footer__languageBtn">Eng</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer__last">
+                    <a class="footer_icons" href="#">
+                        <img src="assets/image/VK.png" alt="vk">
+                    </a>
+                    <a class="footer_icons" href="#">
+                        <img src="assets/image/Telegram.png" alt="telegram">
+                    </a>
+                    <a class="footer_icons" href="#">
+                        <img src="assets/image/Whatsapp.png" alt="whatsApp">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
